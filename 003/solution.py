@@ -1,6 +1,8 @@
 import math
 
 def lpf(n):
+	if n < 1:
+		raise ValueError('lpf() doesn\'t handle numbers < 1.')
 	factors = []
 	# handle evens
 	while n % 2 == 0:
