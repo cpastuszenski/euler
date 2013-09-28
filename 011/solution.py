@@ -29,8 +29,8 @@ for l in grid_numbers.strip().splitlines():
 max = 0;
 
 directions = []
-for x in range(-1, 1):
-	for y in range(-1, 1):
+for x in range(-1, 2):
+	for y in range(-1, 2):
 		if not (x == 0 and y == 0):
 			directions.append([x,y])
 
