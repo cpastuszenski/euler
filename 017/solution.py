@@ -21,8 +21,8 @@ _ones_len = {
     }
 
 _tens_len = {
-    2: 6, #'twenty
-    3: 6, #'thirty
+    2: 6, #'twenty'
+    3: 6, #'thirty'
     4: 5, #'forty'
     5: 5, #'fifty'
     6: 5, #'sixty'
