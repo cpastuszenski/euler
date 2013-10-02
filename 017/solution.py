@@ -44,17 +44,17 @@ def englishify(n):
         if n >= 1000:
             english += _ones[n / 1000]
             if n % 1000 == 0:
-                english += " thousand"
+                english += "thousand"
             else:
-                english += " thousand "
+                english += "thousand"
             n %= 1000
 
         if n >= 100:
             english += _ones[n / 100]
             if n % 100 == 0:
-                english += " hundred"
+                english += "hundred"
             else:
-                english += " hundred and "
+                english += "hundredand"
             n %= 100
 
         if n >= 20:
@@ -67,4 +67,4 @@ def englishify(n):
         return english
 
 
-print sum(len(englishify(i).replace(" ", "")) for i in range(1, 1001))
+print sum(len(englishify(i)) for i in range(1, 1001))
