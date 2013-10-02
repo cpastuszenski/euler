@@ -1,3 +1,6 @@
+# If I wanted to do this as fast as possible, I'd jsut make the dictionaries map directly to word lengths...
+# but screw it, this is funnier
+
 _ones = {
     1: 'one',
     2: 'two',
