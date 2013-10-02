@@ -46,10 +46,7 @@ def englishify(n):
 
         if n >= 1000:
             english += _ones[n / 1000]
-            if n % 1000 == 0:
-                english += "thousand"
-            else:
-                english += "thousand"
+            english += "thousand"
             n %= 1000
 
         if n >= 100:
